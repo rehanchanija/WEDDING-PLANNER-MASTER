@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  scrollbar-width: none; /* Firefox */
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.ant-collapse-item > .ant-collapse-header {
+  color: #fff !important;
+}
+
+.ant-form-item-label > label {
+  color: #fff !important;
+}
+.ant-input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.ant-modal-content {
+  background-color: #1c1c1c !important;
+}
+.ant-modal-header {
+  background-color: #1c1c1c !important;
+}
+.ant-modal-title {
+  color: #fff !important;
+}
+.ant-btn:hover {
+  color: white !important;
+}
+
+.ant-btn {
+  background-color: #ef0454 !important;
+}
+.ant-select-selector {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+.ant-select-selection-placeholder {
+  color: #b2b5bb !important;
+}
+.ant-tabs .ant-tabs-content {
+  background-color: #333537 !important;
+  /* padding: 40px 60px !important; */
+  min-height: 400px !important;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  color: #fff !important;
+  border-radius: 0% !important;
+  border: 2px solid #333537 !important;
+  background-color: #333537;
+  margin-right: 30px !important;
+  margin-bottom: 20px !important;
+  padding: 8px 30px !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+.ant-tabs-tab-active {
+  background-color: #333537 !important;
+}
+
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 200px;
+  }
+}
