@@ -77,7 +77,7 @@ const Events = () => {
         id="upcoming"
       >
         <div className="xl:max-w-[90%] w-full flex flex-col relative">
-          <h1 className="text-white text-3xl py-2">Upcoming Events</h1>
+          <h1 className="text-white text-3xl py-2">Upcoming Event</h1>
 
           <div id="upcoming2" className="py-6 flex overflow-scroll">
             <button
