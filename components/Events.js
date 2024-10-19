@@ -25,7 +25,7 @@ const Events = () => {
     (event) => event?.state === "upcoming"
   );
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loadinng...</p>;
   if (error) return <p>Error. :</p>;
 
   return (
