@@ -35,7 +35,7 @@ const Events = () => {
         id="ongoing"
       >
         <div className="xl:max-w-[90%] w-full flex flex-col relative">
-          <h1 className="text-white text-3xl py-2">Ongoing Events</h1>
+          <h1 className="text-white text-3xl py-2">Ongoing Event</h1>
 
           <div id="ongoing2" className="py-6 flex overflow-scroll">
             <button
